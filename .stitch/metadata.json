@@ -1,0 +1,73 @@
+{
+  "name": "projects/7358527908305916212",
+  "projectId": "7358527908305916212",
+  "title": "Gym Landing Page",
+  "visibility": "PRIVATE",
+  "createTime": "2026-04-24T06:49:37.343576Z",
+  "updateTime": "2026-04-24T06:49:37.343576Z",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {},
+  "screens": {
+    "hero": {
+      "id": "cb7c351518684d7dbef53a4259eef38a",
+      "sourceScreen": "projects/7358527908305916212/screens/cb7c351518684d7dbef53a4259eef38a",
+      "x": 0,
+      "y": 0,
+      "width": 780,
+      "height": 5654
+    },
+    "programs": {
+      "id": "6a548f686baa4fbf937a637baaded58f",
+      "sourceScreen": "projects/7358527908305916212/screens/6a548f686baa4fbf937a637baaded58f",
+      "x": 800,
+      "y": 0,
+      "width": 780,
+      "height": 3276
+    },
+    "booking": {
+      "id": "36265dc12312447bab687e1665d26b50",
+      "sourceScreen": "projects/7358527908305916212/screens/36265dc12312447bab687e1665d26b50",
+      "x": 1600,
+      "y": 0,
+      "width": 780,
+      "height": 3166
+    },
+    "coaches": {
+      "id": "1ea031e7dd2947cfa28cbd9f8efcb80e",
+      "sourceScreen": "projects/7358527908305916212/screens/1ea031e7dd2947cfa28cbd9f8efcb80e",
+      "x": 2400,
+      "y": 0,
+      "width": 780,
+      "height": 2308
+    },
+    "testimonials": {
+      "id": "c417556da3c948a2a12e3657ab99813c",
+      "sourceScreen": "projects/7358527908305916212/screens/c417556da3c948a2a12e3657ab99813c",
+      "x": 3200,
+      "y": 0,
+      "width": 780,
+      "height": 3644
+    },
+    "pricing": {
+      "id": "9ebc330d4dfa449482b091980d39d15f",
+      "sourceScreen": "projects/7358527908305916212/screens/9ebc330d4dfa449482b091980d39d15f",
+      "x": 4000,
+      "y": 0,
+      "width": 780,
+      "height": 3188
+    },
+    "footer": {
+      "id": "b7c4dbd4dc2748e0aae1d10e5b3fb793",
+      "sourceScreen": "projects/7358527908305916212/screens/b7c4dbd4dc2748e0aae1d10e5b3fb793",
+      "x": 4800,
+      "y": 0,
+      "width": 780,
+      "height": 4200
+    }
+  },
+  "metadata": {
+    "userRole": "OWNER"
+  }
+}

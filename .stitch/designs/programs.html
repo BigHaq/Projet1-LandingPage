@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@400;700&amp;family=Epilogue:wght@400;700;900&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed-dim": "#2be800",
+                    "on-error": "#450900",
+                    "tertiary": "#8ce7ff",
+                    "on-tertiary-fixed": "#003640",
+                    "on-surface": "#ffffff",
+                    "on-primary-fixed-variant": "#0d6200",
+                    "on-surface-variant": "#adaaaa",
+                    "surface-container": "#1a1919",
+                    "tertiary-container": "#53ddfc",
+                    "secondary-fixed-dim": "#d0b8ff",
+                    "on-secondary-fixed-variant": "#6514d6",
+                    "surface-container-highest": "#262626",
+                    "on-secondary": "#2b0065",
+                    "surface-variant": "#262626",
+                    "tertiary-dim": "#40ceed",
+                    "error-container": "#b92902",
+                    "on-background": "#ffffff",
+                    "on-secondary-fixed": "#430097",
+                    "on-tertiary": "#005464",
+                    "on-error-container": "#ffd2c8",
+                    "on-primary-container": "#0b5800",
+                    "tertiary-fixed": "#53ddfc",
+                    "outline": "#777575",
+                    "on-primary-fixed": "#064200",
+                    "surface-tint": "#8eff71",
+                    "primary-dim": "#2be800",
+                    "secondary-dim": "#8a4cfc",
+                    "secondary-container": "#6001d1",
+                    "outline-variant": "#494847",
+                    "inverse-on-surface": "#565554",
+                    "error-dim": "#d53d18",
+                    "secondary": "#af88ff",
+                    "primary": "#8eff71",
+                    "on-tertiary-container": "#004b58",
+                    "on-tertiary-fixed-variant": "#005564",
+                    "primary-fixed": "#2ff801",
+                    "error": "#ff7351",
+                    "inverse-surface": "#fcf8f8",
+                    "inverse-primary": "#106f00",
+                    "primary-container": "#2ff801",
+                    "on-primary": "#0d6100",
+                    "background": "#0e0e0e",
+                    "surface-container-lowest": "#000000",
+                    "tertiary-fixed-dim": "#40ceed",
+                    "surface": "#0e0e0e",
+                    "secondary-fixed": "#dcc9ff",
+                    "surface-container-high": "#201f1f",
+                    "surface-container-low": "#131313",
+                    "on-secondary-container": "#e1d0ff",
+                    "surface-dim": "#0e0e0e",
+                    "surface-bright": "#2c2c2c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Epilogue"],
+                    "display": ["Epilogue"],
+                    "body": ["Inter"],
+                    "label": ["Inter"],
+                    "bebas": ["Bebas Neue"]
+            }
+          },
+        },
+      }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.grain-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuC1v5xJmB7xKUO0yS4Q-VaPwbpc0wyXMjfZnezeuNN0fgzbA8RpQ0bHAwxjEbwb8FcOH0jMcMA8gOI8ASHiXT29hpZd7fskHImPWg7yihwzc-Q4pQTeK8yF4NPNf7EAnl66xBbiuXQ3gvgI34vIYC6YanUgGFRkeezk6qpRSyttMXv-Y49r49-Ss4Nl484KTUiXzPiXh7M7pJu0OH8syagauOUEuBMvmBidXZ5QQjlF4JSnhICV2Hii6UW9IUPgpBSyLKcCG7OSjzo);
+    pointer-events: none
+    }
+.neon-glow-text {
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.5)
+    }
+.glass-card {
+    background: rgba(38, 38, 38, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.05)
+    }
+.active-glow {
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2)
+    }
+body {
+    background-color: #0A0A0A
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body text-on-surface antialiased">
+<div class="fixed inset-0 grain-overlay opacity-[0.03] z-50"></div>
+<!-- TopAppBar -->
+<header class="bg-neutral-950/70 backdrop-blur-2xl text-[#39FF14] docked full-width top-0 sticky z-40 bg-gradient-to-b from-neutral-900 to-transparent shadow-none">
+<div class="flex justify-between items-center w-full px-6 py-4">
+<div class="w-8 h-8 rounded-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="portrait of a focused female athlete with dramatic side lighting against dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkgZqtTJrQULWLueyb9wrfMTgHTIN3a3ekyA3dKq3VeKiXL6MIHE0Bm4U8GOCLw9HMHX4f1t_c1sgkKt5F2L3eB7AMwLNYG7f85imDucvXpUDb-AvfZK7wlfkGdds2NnvUrT8E6-GzH97_v2vZM58_5qSyvyBtWwIzBI_VOW2eTsBvlJCHURKpm4o2xJ1aqZewnnpvMfrjcbEky8ya5yrlUCttEisXsdddREqKa0kh6K-sMjQwwEbU5RjC46RZ60__Uhxx7hkIDJo"/>
+</div>
+<h1 class="text-2xl font-black text-[#39FF14] drop-shadow-[0_0_10px_rgba(57,255,20,0.5)] font-bebas tracking-tighter uppercase">KINETIX ULTRA</h1>
+<span class="material-symbols-outlined text-[#39FF14]">notifications</span>
+</div>
+</header>
+<main class="px-6 pb-24">
+<!-- Section Title -->
+<section class="py-8">
+<h2 class="text-4xl text-center font-bebas font-bold uppercase tracking-tight text-on-surface neon-glow-text leading-none">
+                ENTRAÎNEZ-VOUS COMME UN PRO
+            </h2>
+</section>
+<!-- Programs Grid -->
+<div class="grid grid-cols-1 gap-6">
+<!-- Program Card: HIIT -->
+<div class="glass-card rounded-xl p-5 relative overflow-hidden active-glow flex flex-col gap-4 group">
+<div class="flex justify-between items-start">
+<div class="w-12 h-12 rounded-lg bg-[#39FF14]/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-[#39FF14] text-3xl" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<div class="px-3 py-1 rounded-full border border-[#39FF14] text-[#39FF14] text-[10px] font-bold tracking-widest uppercase">
+                        45 Min
+                    </div>
+</div>
+<div>
+<h3 class="font-bebas text-3xl text-on-surface leading-none mb-1">ENTRAÎNEMENT HIIT</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Explosion cardiovasculaire intense pour brûler un maximum de graisses en un temps record.</p>
+</div>
+<button class="w-full py-3 bg-[#39FF14] text-neutral-950 font-bebas text-xl tracking-wider rounded-lg transition-transform active:scale-95">
+                    RÉSERVER
+                </button>
+<div class="absolute -right-4 -top-8 opacity-[0.03] select-none pointer-events-none">
+<span class="font-bebas text-8xl">01</span>
+</div>
+</div>
+<!-- Program Card: Powerlifting -->
+<div class="glass-card rounded-xl p-5 relative overflow-hidden flex flex-col gap-4">
+<div class="flex justify-between items-start">
+<div class="w-12 h-12 rounded-lg bg-[#39FF14]/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-[#39FF14] text-3xl" style="font-variation-settings: 'FILL' 1;">fitness_center</span>
+</div>
+<div class="px-3 py-1 rounded-full border border-[#39FF14] text-[#39FF14] text-[10px] font-bold tracking-widest uppercase">
+                        75 Min
+                    </div>
+</div>
+<div>
+<h3 class="font-bebas text-3xl text-on-surface leading-none mb-1">FORCE &amp; POWERLIFTING</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Concentrez-vous sur les mouvements fondamentaux pour construire une force brute inégalée.</p>
+</div>
+<button class="w-full py-3 bg-[#39FF14] text-neutral-950 font-bebas text-xl tracking-wider rounded-lg transition-transform active:scale-95">
+                    RÉSERVER
+                </button>
+<div class="absolute -right-4 -top-8 opacity-[0.03] select-none pointer-events-none">
+<span class="font-bebas text-8xl">02</span>
+</div>
+</div>
+<!-- Program Card: Yoga -->
+<div class="glass-card rounded-xl p-5 relative overflow-hidden flex flex-col gap-4">
+<div class="flex justify-between items-start">
+<div class="w-12 h-12 rounded-lg bg-[#39FF14]/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-[#39FF14] text-3xl" style="font-variation-settings: 'FILL' 1;">self_improvement</span>
+</div>
+<div class="px-3 py-1 rounded-full border border-[#39FF14] text-[#39FF14] text-[10px] font-bold tracking-widest uppercase">
+                        60 Min
+                    </div>
+</div>
+<div>
+<h3 class="font-bebas text-3xl text-on-surface leading-none mb-1">YOGA &amp; MOBILITÉ</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Améliorez votre souplesse et votre récupération pour une performance athlétique durable.</p>
+</div>
+<button class="w-full py-3 bg-[#39FF14] text-neutral-950 font-bebas text-xl tracking-wider rounded-lg transition-transform active:scale-95">
+                    RÉSERVER
+                </button>
+<div class="absolute -right-4 -top-8 opacity-[0.03] select-none pointer-events-none">
+<span class="font-bebas text-8xl">03</span>
+</div>
+</div>
+<!-- Program Card: CrossFit -->
+<div class="glass-card rounded-xl p-5 relative overflow-hidden flex flex-col gap-4">
+<div class="flex justify-between items-start">
+<div class="w-12 h-12 rounded-lg bg-[#39FF14]/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-[#39FF14] text-3xl" style="font-variation-settings: 'FILL' 1;">rebase_edit</span>
+</div>
+<div class="px-3 py-1 rounded-full border border-[#39FF14] text-[#39FF14] text-[10px] font-bold tracking-widest uppercase">
+                        50 Min
+                    </div>
+</div>
+<div>
+<h3 class="font-bebas text-3xl text-on-surface leading-none mb-1">CROSSFIT</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Mouvements fonctionnels à haute intensité pour devenir une machine de guerre polyvalente.</p>
+</div>
+<button class="w-full py-3 bg-[#39FF14] text-neutral-950 font-bebas text-xl tracking-wider rounded-lg transition-transform active:scale-95">
+                    RÉSERVER
+                </button>
+<div class="absolute -right-4 -top-8 opacity-[0.03] select-none pointer-events-none">
+<span class="font-bebas text-8xl">04</span>
+</div>
+</div>
+</div>
+<!-- Featured Banner -->
+<section class="mt-8 rounded-xl overflow-hidden relative h-48 bg-surface-container-low flex items-end p-6 border-none">
+<img class="absolute inset-0 w-full h-full object-cover opacity-60" data-alt="sweaty athlete lifting heavy barbell in a dark moody industrial gym with neon highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrgcum89R0r-liXYaV-vV6MDJfudcKIyL1Roj6Z0GbtGlew0aLAgkOT7u0AYDewwjnyB8u6ufkfRJ4hnX4hVbuSbV2I3F5aERU4TVoIJ7lRT5HjxlcfXuTTDSAAZpqyfVQFcoUDBfVlqP4IpXvGeHsZV4SMwNn6SRkoPVuDKgOZE_P6ldsPQwB1WjAPI7l9aij5qdQG_RYN_Pp7hipz8mfm3yLoK5bbcBiqLvEh3mf8eEZsVj5mq2EjnVqnm97SROGeNv_KfnvOu8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+<div class="relative z-10">
+<span class="text-[#39FF14] font-bold text-xs tracking-widest uppercase mb-2 block">DÉFI DE LA SEMAINE</span>
+<h4 class="font-bebas text-2xl text-on-surface">SESSION ULTRA ENDURANCE</h4>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 rounded-t-lg bg-neutral-950/80 backdrop-blur-3xl shadow-[0_-4px_20px_rgba(0,0,0,0.5)] bg-neutral-900/50 border-t border-white/5">
+<div class="flex justify-around items-center px-4 py-3">
+<!-- Tab: PROGRAMMES -->
+<a class="flex flex-col items-center justify-center text-[#39FF14] drop-shadow-[0_0_8px_rgba(57,255,20,0.6)] scale-110" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-['Epilogue'] text-[10px] font-bold uppercase tracking-widest mt-1">PROGRAMMES</span>
+</a>
+<!-- Tab: ENTRAÎNER -->
+<a class="flex flex-col items-center justify-center text-neutral-500 opacity-60 hover:opacity-100 hover:text-neutral-200 transition-all" href="#">
+<span class="material-symbols-outlined">fitness_center</span>
+<span class="font-['Epilogue'] text-[10px] font-bold uppercase tracking-widest mt-1">ENTRAÎNER</span>
+</a>
+<!-- Tab: PROGRÈS -->
+<a class="flex flex-col items-center justify-center text-neutral-500 opacity-60 hover:opacity-100 hover:text-neutral-200 transition-all" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+<span class="font-['Epilogue'] text-[10px] font-bold uppercase tracking-widest mt-1">PROGRÈS</span>
+</a>
+<!-- Tab: PROFIL -->
+<a class="flex flex-col items-center justify-center text-neutral-500 opacity-60 hover:opacity-100 hover:text-neutral-200 transition-all" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Epilogue'] text-[10px] font-bold uppercase tracking-widest mt-1">PROFIL</span>
+</a>
+</div>
+</nav>
+</body></html>

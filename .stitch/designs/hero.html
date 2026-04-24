@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@300;400;600;700;900&amp;family=Epilogue:wght@700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary": "#2b0065",
+                    "on-error": "#450900",
+                    "surface-bright": "#2c2c2c",
+                    "tertiary-dim": "#40ceed",
+                    "on-secondary-fixed-variant": "#6514d6",
+                    "on-secondary-container": "#e1d0ff",
+                    "outline": "#777575",
+                    "on-surface": "#ffffff",
+                    "primary": "#8eff71",
+                    "tertiary-fixed": "#53ddfc",
+                    "inverse-surface": "#fcf8f8",
+                    "inverse-on-surface": "#565554",
+                    "primary-fixed": "#2ff801",
+                    "surface-container-lowest": "#000000",
+                    "primary-container": "#2ff801",
+                    "surface-dim": "#0e0e0e",
+                    "surface-container": "#1a1919",
+                    "on-tertiary": "#005464",
+                    "on-primary": "#0d6100",
+                    "primary-fixed-dim": "#2be800",
+                    "on-primary-fixed-variant": "#0d6200",
+                    "surface-variant": "#262626",
+                    "surface": "#0e0e0e",
+                    "secondary-container": "#6001d1",
+                    "on-background": "#ffffff",
+                    "secondary-fixed": "#dcc9ff",
+                    "tertiary": "#8ce7ff",
+                    "error": "#ff7351",
+                    "on-tertiary-container": "#004b58",
+                    "on-primary-fixed": "#064200",
+                    "on-primary-container": "#0b5800",
+                    "on-surface-variant": "#adaaaa",
+                    "surface-container-highest": "#262626",
+                    "primary-dim": "#2be800",
+                    "surface-container-high": "#201f1f",
+                    "surface-container-low": "#131313",
+                    "on-error-container": "#ffd2c8",
+                    "error-container": "#b92902",
+                    "secondary": "#af88ff",
+                    "background": "#0e0e0e",
+                    "tertiary-fixed-dim": "#40ceed",
+                    "inverse-primary": "#106f00",
+                    "tertiary-container": "#53ddfc",
+                    "outline-variant": "#494847",
+                    "secondary-fixed-dim": "#d0b8ff",
+                    "on-tertiary-fixed-variant": "#005564",
+                    "surface-tint": "#8eff71",
+                    "on-secondary-fixed": "#430097",
+                    "on-tertiary-fixed": "#003640",
+                    "error-dim": "#d53d18",
+                    "secondary-dim": "#8a4cfc"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Bebas Neue", "sans-serif"],
+                    "display": ["Epilogue", "sans-serif"],
+                    "body": ["Inter", "sans-serif"],
+                    "label": ["Inter", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<style>.grain-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.04;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAyCq30_EU3PiiRLg_3lFyz8cLEp_bxCGuYID7r-szxRvb3gxN9__B6xwvSflQvUv9nI87jAyVyb_qJwFQR9vYaFmt1oG_JBrXysmxEjYETTv4joQQ5FOHj-pGZv5oRFQD6DyM5sMfYs3s-Hi9SczyA7h_qdRiUAJQXK7dhUMFmrMofIXHyhVnUTQeL48kThSkLlBKn8gBDoojp1lkb45q1juIbUybpGi_Sx39nfudxMmnE4fcXJxURDwnh4B28QDtPe9YlFMuQxtU)
+    }
+.text-glow {
+    text-shadow: 0 0 20px rgba(57, 255, 20, 0.4)
+    }
+.bebas {
+    font-family: "Bebas Neue", sans-serif
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-container-lowest text-on-surface font-body selection:bg-primary selection:text-on-primary overflow-x-hidden">
+<div class="grain-overlay"></div>
+<nav class="fixed top-0 w-full z-50 bg-[#0A0A0A]/80 backdrop-blur-2xl shadow-[0_10px_30px_rgba(57,255,20,0.05)]">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-[1440px] mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="text-3xl font-black italic text-[#39FF14] tracking-tighter bebas">KINETIC</span>
+</div>
+<div class="hidden md:flex items-center gap-12">
+<a class="text-[#39FF14] font-bold border-b-2 border-[#39FF14] pb-1 bebas tracking-widest text-sm uppercase" href="#">Accueil</a>
+<a class="text-zinc-400 hover:text-zinc-100 uppercase text-sm tracking-widest hover:scale-105 transition-transform duration-300 hover:text-[#39FF14] bebas" href="#">Programmes</a>
+<a class="text-zinc-400 hover:text-zinc-100 uppercase text-sm tracking-widest hover:scale-105 transition-transform duration-300 hover:text-[#39FF14] bebas" href="#">Tarifs</a>
+<a class="text-zinc-400 hover:text-zinc-100 uppercase text-sm tracking-widest hover:scale-105 transition-transform duration-300 hover:text-[#39FF14] bebas" href="#">Équipe</a>
+</div>
+<button class="bg-primary text-on-primary px-8 py-2 font-black bebas tracking-wider rounded-none hover:scale-105 transition-transform duration-300 active:scale-95">
+                REJOINDRE
+            </button>
+</div>
+</nav>
+<main>
+<section class="relative min-h-screen flex flex-col justify-center items-center pt-24 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-[#0A0A0A]/95 to-surface-container-lowest z-0"></div>
+<div class="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-[120px]"></div>
+<div class="absolute inset-0 z-0 opacity-40">
+<img alt="athlete training hard" class="w-full h-full object-cover grayscale mix-blend-overlay" data-alt="dramatic wide shot of a muscular athlete lifting heavy chains in a dark industrial gym with harsh rim lighting and smoke" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNnGGOb0Z1q1e1yKYAHeWxSLHrwBRTSnENPxSWboT5PPFEPOGteKAZqA9W2sOqKYqUdtKAwIMat5DtC_MlK1hFXJm9O75_bZg6K125LczfQ_u_NYN8M1YsZd9tchCcoHf4hWV4cTSWl8thh22y6XzNYx3bFZ8yqzH2qB4Z88DPRWAEe1fucw-y7cbghrqg0z1EgdJdl7rCWL2fLnlYvsMA4z7POTPWaJHWU4d5bmrYiFDsK10qPrW_gAiu5HUR_8QACOsCs5LIQio"/>
+</div>
+<div class="relative z-10 container mx-auto px-6 text-center">
+<div class="inline-block mb-6 px-4 py-1 bg-surface-container-high border-l-2 border-primary">
+<span class="bebas text-primary tracking-[0.3em] text-sm">VIVEZ L'INTENSITÉ</span>
+</div>
+<h1 class="text-7xl md:text-[11rem] leading-none bebas italic tracking-tighter mb-6 bg-gradient-to-b from-white via-white to-zinc-600 bg-clip-text text-transparent drop-shadow-2xl">
+                    DÉPASSEZ VOS <br/>
+<span class="text-primary text-glow">LIMITES</span>
+</h1>
+<p class="max-w-2xl mx-auto text-on-surface-variant text-lg md:text-xl font-light tracking-wide mb-12">
+                    Entraînement de classe mondiale. Vrais résultats. <br class="hidden md:block"/> 
+                    Réservez votre première séance aujourd'hui et transformez votre potentiel en puissance.
+                </p>
+<div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+<button class="group relative px-10 py-5 bg-primary rounded-full overflow-hidden hover:scale-105 transition-all duration-300 active:scale-95 shadow-[0_0_30px_rgba(57,255,20,0.2)]">
+<span class="relative z-10 text-on-primary font-black bebas text-xl tracking-widest">RÉSERVER UNE CLASSE</span>
+</button>
+<button class="px-10 py-5 border border-outline-variant hover:border-primary/50 text-on-surface rounded-full font-black bebas text-xl tracking-widest transition-all duration-300 hover:bg-white/5 active:scale-95">
+                        EXPLORER LES PROGRAMMES
+                    </button>
+</div>
+</div>
+<div class="relative z-20 w-full mt-24 bg-surface-container-low/50 backdrop-blur-md border-t border-white/5">
+<div class="max-w-7xl mx-auto px-8 py-10 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-4">
+<div class="flex flex-col items-center">
+<span class="bebas text-4xl text-white">1 200+</span>
+<span class="text-[10px] uppercase tracking-[0.4em] text-primary font-bold">Membres Actifs</span>
+</div>
+<div class="hidden md:block w-px h-12 bg-white/10"></div>
+<div class="flex flex-col items-center">
+<span class="bebas text-4xl text-white">40+</span>
+<span class="text-[10px] uppercase tracking-[0.4em] text-primary font-bold">Classes / Semaine</span>
+</div>
+<div class="hidden md:block w-px h-12 bg-white/10"></div>
+<div class="flex flex-col items-center">
+<span class="bebas text-4xl text-white">12</span>
+<span class="text-[10px] uppercase tracking-[0.4em] text-primary font-bold">Coachs Experts</span>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group relative aspect-[4/5] bg-surface-container overflow-hidden">
+<img alt="performance training" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="professional athlete sprinting on an indoor track with high contrast shadows and neon green light reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBG4JxAAsidihQGzto3EGxEQIqv1bUK7phCQadOkiiB70H7oYclipLJ-ubuRQlyo75c55Cu5ADhdrqIlEWhUoSlG7hQcKl71lk3r4KfGhC9GjMaKB_gxuWJI41pSjKJokNUX5tj4irydP1BrOZE1gA01Q2DoeihW-FONT6htvkqIKfwWhA8Ug5XDwvxgiPG-oiFNfDmQEDN024_Sy283mwVF4eb0yhcuajmOgjNfb_Un-8iu0p7sYQcz6xxXXKaRd0Ixm3FUHRKXI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h3 class="bebas text-4xl text-white mb-2">PERFORMANCE</h3>
+<p class="text-on-surface-variant text-xs tracking-widest uppercase">Force &amp; Conditionnement</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] bg-surface-container overflow-hidden">
+<img alt="combat training" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="boxer hitting a heavy bag in a moody gym setting with dramatic lighting and flying sweat particles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCEsQAPTXM8i1wbBqMWm1f9wx1-stotkOISOlJyX7zwBFunzvXiFBspXq672PHudj7ZpR4NPH92EKarzi7yi_1g3CFIJtiFQGVyolo3kYBw0TnHKtZVQECJ7yBd6AAB55ABVHz8SSLg_zXOrS5G8rHtkdCqsZ-iyQSDim4k3o_-u_DysbG80oheeJXwGDcsGzSBHdUo4gLimEpJ-wyrfOAoO5m_mZRilbYiTyQ3rULqVBFQUJrpoF1xnItbH8Ru2BcesOQ4OWzvhc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h3 class="bebas text-4xl text-white mb-2">COMBAT</h3>
+<p class="text-on-surface-variant text-xs tracking-widest uppercase">Boxe &amp; MMA technique</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] bg-surface-container overflow-hidden">
+<img alt="mobility training" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="person doing intense functional mobility work in a dark studio with atmospheric cyan and purple lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArqqexpxmVUZ8NoflF6FtsgM09Mc8nAh3T5g-tRfbrtOTFwYlZSHHDbZ7snaPFLslTsjmiAZ0YI_B68NvytHr3ywWlBrdMpeml_brdQKYpnSdLR8u12BpjNJjKFqMJ2r1KUsSofClvgdCXFAf7YW7ri90yvzLMYNyRF8ewyc-QyNNp5QBRz3Q5m_xnsqWPxhWgrF8nwBCvJ2-Weq8lIRW0j4g8IJq2xemjxQ-QCCn7GFNOfCmJbo6Lu1O9XUkD_Wdt_2hQcrIptxg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<h3 class="bebas text-4xl text-white mb-2">MOBILITÉ</h3>
+<p class="text-on-surface-variant text-xs tracking-widest uppercase">Récupération &amp; Flux</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full py-12 bg-black border-t border-white/5">
+<div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-2">
+<span class="text-[#39FF14] font-bold text-2xl bebas tracking-tighter italic">KINETIC PULSE</span>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-zinc-600 hover:text-[#39FF14] transition-colors font-inter text-xs uppercase tracking-[0.2em]" href="#">Accueil</a>
+<a class="text-zinc-600 hover:text-[#39FF14] transition-colors font-inter text-xs uppercase tracking-[0.2em]" href="#">Programmes</a>
+<a class="text-zinc-600 hover:text-[#39FF14] transition-colors font-inter text-xs uppercase tracking-[0.2em]" href="#">Tarifs</a>
+<a class="text-zinc-600 hover:text-[#39FF14] transition-colors font-inter text-xs uppercase tracking-[0.2em]" href="#">Équipe</a>
+</div>
+<div class="text-zinc-600 font-inter text-[10px] uppercase tracking-[0.2em]">
+                © 2024 KINETIC PULSE. DÉPASSEZ VOS LIMITES.
+            </div>
+</div>
+</footer>
+</body></html>
