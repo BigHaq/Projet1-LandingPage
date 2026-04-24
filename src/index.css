@@ -11,13 +11,23 @@
   }
 
   body {
-    @apply bg-[#0A0A0A] text-white font-['Inter'];
+    @apply bg-[#0A0A0A] text-white font-['Inter'] overflow-x-hidden;
     background-image: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #0a0a0a 100%);
     min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-['Bebas_Neue'] tracking-wider uppercase;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 

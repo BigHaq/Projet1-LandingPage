@@ -30,15 +30,15 @@ const Programs = () => {
   const icons = ['bolt', 'fitness_center', 'self_improvement', 'rebase_edit'];
 
   return (
-    <section id="programs" className="py-24 px-6 max-w-7xl mx-auto">
-      <div className="text-center mb-16">
+    <section id="programs" className="py-16 md:py-24 px-6 max-w-7xl mx-auto">
+      <div className="text-center mb-12 md:mb-16">
         <h2 className="text-4xl md:text-6xl font-['Bebas_Neue'] font-bold uppercase tracking-tight text-white neon-glow-text leading-none mb-4">
           ENTRAÎNEZ-VOUS COMME UN PRO
         </h2>
         <div className="w-24 h-1 bg-neon-green mx-auto"></div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
         {classes.map((cls, idx) => (
           <ProgramCard 
             key={cls.id} 
@@ -49,17 +49,17 @@ const Programs = () => {
         ))}
       </div>
 
-      <div className="mt-16 rounded-xl overflow-hidden relative h-64 bg-[#131313] flex items-end p-8 border border-white/5">
+      <div className="mt-12 md:mt-16 rounded-xl overflow-hidden relative h-auto min-h-64 md:h-64 bg-[#131313] flex items-end p-6 md:p-8 border border-white/5">
         <img 
           className="absolute inset-0 w-full h-full object-cover opacity-60" 
           src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1920" 
           alt="Session Ultra Endurance"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-        <div className="relative z-10">
-          <span className="text-neon-green font-bold text-xs tracking-widest uppercase mb-2 block">Défi de la semaine</span>
-          <h4 className="font-['Bebas_Neue'] text-4xl text-white">SESSION ULTRA ENDURANCE</h4>
-          <button className="mt-4 px-6 py-2 border border-neon-green text-neon-green font-['Bebas_Neue'] uppercase tracking-widest text-sm hover:bg-neon-green hover:text-black transition-all">
+        <div className="relative z-10 w-full">
+          <span className="text-neon-green font-bold text-[10px] md:text-xs tracking-widest uppercase mb-2 block">Défi de la semaine</span>
+          <h4 className="font-['Bebas_Neue'] text-3xl md:text-4xl text-white leading-tight">SESSION ULTRA ENDURANCE</h4>
+          <button className="mt-4 w-full md:w-auto px-6 py-2 border border-neon-green text-neon-green font-['Bebas_Neue'] uppercase tracking-widest text-sm hover:bg-neon-green hover:text-black transition-all">
             Participer
           </button>
         </div>
